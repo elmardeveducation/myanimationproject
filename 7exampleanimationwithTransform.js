@@ -31,10 +31,7 @@ export default class App extends Component {
       transform : [
         {
           scale : this.state.animationValue
-        },
-        { rotateX: '45deg' }, 
-        {rotateY: '-45deg'},
-        { rotateZ: '0.785398rad' }
+        }
       ]
 
     }
